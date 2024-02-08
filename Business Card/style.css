@@ -1,0 +1,30 @@
+body{
+    margin:20px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{ 
+    width: 150px;
+    height: 150px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    padding:20px;
+    
+    /* either display: flex to body or use margin like this
+    
+    margin-left: auto;
+    margin-right: auto; 
+    
+    */
+    background-color: #ddebf8;
+    color: #2b2839;
+    border-bottom: 3px solid purple;
+}
+
