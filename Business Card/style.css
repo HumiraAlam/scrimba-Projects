@@ -9,7 +9,11 @@ body{
 img{ 
     width: 150px;
     height: 150px;
+    border: 2px solid #283618;
+    
 }
+
+
 
 .card{
     display: flex;
@@ -23,8 +27,13 @@ img{
     margin-right: auto; 
     
     */
-    background-color: #ddebf8;
-    color: #2b2839;
-    border-bottom: 3px solid purple;
+    
+    background-image: linear-gradient(90deg, #dda25edc, #bc6c25, #331f0db4);
+    color: #fefae0;
+    border-bottom: 10px solid #aa6121;
+    border-radius: 10%;
+    box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
 }
 
