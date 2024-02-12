@@ -1,0 +1,77 @@
+body{
+    
+    font-family: "Happy Monkey", system-ui;
+    background: linear-gradient(#88afd3, pink); 
+    color:#f1e1e0;
+    
+}
+body div{
+    display:flex;
+    flex-direction: column;
+   
+    align-items: center;
+
+}
+#profpic{
+    width: 150px;
+    height: 160px;
+    border-radius: 50%;
+    border: 2px solid #3b4d6c;
+}
+
+.happy-monkey-regular {
+    
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1,h2,h3{
+    text-shadow: 0 0 3px #3b4d6c;
+  }
+  #age, #date{
+    background:#3b4d6c ;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+  }
+
+  .giftboxes {
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-image: url("gift-cover.jpg") ;
+    background-size: cover;
+    background-position: center;
+  }
+  #giftbox1:hover{
+    background-image: url("gift1.webp");
+  }
+  #giftbox2:hover{
+    background-image: url("gift2.webp");
+  }
+  #giftbox3:hover{
+    background-image: url("gift3.gif");
+  }
+  #giftbox4:hover{
+    background-image: url("gift4.gif");
+  }
+  #giftbox5:hover{
+    background-image: url("gift5.gif");
+  }
+
+  .gifttitle{
+    margin-top: 80px;
+    
+  }
+  .gifthint{
+    margin-top: 0px;
+  }
+#footer{
+  margin-top:50px;
+  color:#3b4d6c
+  
+}
+/* a{
+  color:white
+} */
