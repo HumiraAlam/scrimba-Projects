@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Spinnaker", sans-serif;
+    
+   
+}
+#banner{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: url("Images/Banner.jpg");
+    background-size: cover;
+    background-position: center;
+   
+
+ 
+    height: 350px;
+    
+
+}
+    #title, #heading {
+        border-radius: 5px;
+        color: #C9EDDC;
+        padding: 3px 15px;
+        text-shadow: 0 0 3px #183A0A;
+
+    }
+
+    #title{
+        
+        background-color: #456E0A;
+        
+    }
+    #heading{
+        background-color: #86AB45;
+    }
+    h2,h3,h4{
+        color:#274313;
+        text-shadow: 0 0 1px #456E0A;
+        
+    }
+.img-activity{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#visitplaces  {
+    display: flex;
+    margin: 0 50px;  
+
+}
+#activities{
+   
+    background-color: #8CC8BC;
+    
+}
+p{
+    padding: 20px;
+    color:#274313;
+}
+#activities>h2{ 
+margin: 0;
+padding: 50px;
+}
+/* .site{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
+#guide{
+    display: flex;
+    align-items: center;
+    
+    background-color: #8CC8BC;
+    margin: 50px auto;
+    height: 300px;
+    width: 450px;
+    border-radius:5%;
+    box-shadow: 0 0 50px #86AB45;
+    border-bottom: 5px solid #456E0A;
+
+}
+#img-guide{
+    height: 250px;
+    width: 200px;
+    border-radius:10%;
+    padding: 10px;
+}
+#footer{
+    display: flex;
+    height: 50px;
+    background-color: #8CC8BC;
+    text-align: center;
+    justify-content: center;
+}
